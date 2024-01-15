@@ -1,0 +1,25 @@
+.messageBox{
+    width: fit-content;
+    padding: 0.4vmax;
+    border-radius: 0.5vmax;
+    clear: both;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+    margin: 0.4rem 0.8rem 0 0 !important;
+    float: right;
+    background-color: rgba(0, 0, 255, 0.815);
+    color: white;
+}
+.left{
+    margin: 0.4rem 0 0 0.8rem !important;
+    float: left;
+    background-color: rgba(150, 155, 150, 0.301);
+    color: rgb(41, 38, 38);
+}
+
+.messageBox>p{
+    opacity: 0.5;
+    color: crimson;
+}
